@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByTrend</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo"><img src="./images/logo.svg" alt="" /></a>
+          <div class="nav-items">
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">About </a>
+            <a href="#" class="nav-link">Contacts</a>
+
+            <button class="nav-link">
+              <a style="text-decoration: none" href="./login.html">Log in</a>
+            </button>
+            <button class="nav-link">
+              <a style="text-decoration: none" href="./index.html"
+                >Open an account</a
+              >
+            </button>
+            <div class="dropdown">
+              <button href="#" class="nav-link">EN</button>
+              <div class="dropdown-content">
+                <a href="#" class="nav-link">EN</a>
+                <a href="#" class="nav-link">RU</a>
+                <a href="#" class="nav-link">UZ</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="Register1">
+      <div class="container">
+        <div class="register1-content">
+          <img style="padding-top: 40px" src="./images/logo.svg" alt="" />
+          <div class="welcome">
+            <p>Welcome to ByTrend!</p>
+          </div>
+          <div class="have">
+            <p>Already have an account?</p>
+            <a href="./login.html">Log in</a>
+          </div>
+
+          <div class="email-content">
+            <p class="email">Email <span>*</span></p>
+            <div class="email-input">
+              <input
+                class="input-email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="email-content">
+            <p class="phone">Phone <span>*</span></p>
+            <div class="phone-input">
+              <input
+                class="input-phone"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+998 99 123 45 67"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="country-city">
+            <div>
+              <label for="continent">Country <span>*</span></label>
+            </div>
+            <div>
+              <label for="continent-city">City <span>* </span></label>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <select class="country" name="continent" id="continent">
+              <option value="Uzbekistan">Uzbekistan</option>
+              <option value="Russian">Russian</option>
+              <option value="USA">USA</option>
+              <option value="Germania">Germania</option>
+              <option value="India">India</option>
+            </select>
+
+            <div class="city">
+              <input
+                class="country-city"
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Name of the city"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-fields">
+            <div>Password <span>*</span></div>
+            <div class="password">
+              <input
+                class="password"
+                type="password"
+                id="parol"
+                name="password"
+                placeholder="********"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-fields">
+            <div>Confirm password* <span>*</span></div>
+            <div class="password">
+              <input
+                class="password"
+                type="password"
+                id="parol"
+                name="password"
+                required
+              />
+            </div>
+          </div>
+          <div class="Registerr">
+            <button class="continue-btn">
+              <a class="continue-btn" href="./second.html">Register</a>
+            </button>
+          </div>
+
+          <div class="footer-text">
+            <p>
+              By signing up, you are agreeing to our
+              <span>Terms & Conditions</span> and
+              <span>Privacy Policy.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
